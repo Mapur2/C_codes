@@ -1,0 +1,29 @@
+#include<stdio.h>
+
+	void main()
+	{
+		int u,c,m=21;
+		printf("There are total 21 toothpicks.You have to choose between 1 to 4 picks. If you are forced\n");
+		printf("to pick the last toothpick you loose. Good luck!!!\n");
+		printf("\n");
+		while(m!=1)
+		{
+			printf("Enter your choice of tooth pick between 1 to 4\n");
+			scanf("%d",&u);
+			if(u<5)
+			{
+				c=5-u;
+				printf("Computer picks is %d\n",c);
+				m=m-5;
+				printf("Number of toothpicks left %d\n",m);
+					printf("\n");
+					printf("\n");
+			}
+			else
+			    {
+				printf("You loose"); break;}
+		
+		}
+		if(m==1)
+			printf("Computer wins. You loose. Better luck next time.");
+	}
