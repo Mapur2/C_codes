@@ -1,4 +1,4 @@
-/*searches an element and deletes it ifrom the linked list*/ 
+/*searches an element and deletes it from the linked list*/ 
 
 #include<stdio.h>
 #include<stdlib.h>
