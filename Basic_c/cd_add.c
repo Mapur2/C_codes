@@ -1,3 +1,5 @@
+/*takes input from cmd (as a string). Can add two positive integers*/
+
 #include<stdio.h>
 #include<string.h>
 int main(int c,char *n[])
