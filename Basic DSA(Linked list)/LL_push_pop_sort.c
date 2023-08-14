@@ -1,3 +1,5 @@
+/* Push from rear, push from front , pop from rear, pop from front and sorts the list*/
+
 #include<stdio.h>
 #include<stdlib.h>
 struct link
