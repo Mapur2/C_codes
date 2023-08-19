@@ -49,7 +49,10 @@ int main()
 			push(&s,'(');
 		printf("top=%d\n",s.top);
 		if(q[i]==' ')
+		{
+			i++;
 			continue;
+		}
 		if(isOperand(q[i])==1)
 			p[k++]=q[i];
 		else 
