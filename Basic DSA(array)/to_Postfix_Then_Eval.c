@@ -3,6 +3,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
+#include<math.h>
 #define MAX 20
 typedef struct{
 	int top;
@@ -118,7 +119,7 @@ int evaluate(char *p)
 			else if(p[i]=='/')
 				value=a/b;
 			else if(p[i]=='^')
-				value=a^b;
+				value=pow(a,b);
 			es.val[es.top]=value;
 		}
 		i++;
