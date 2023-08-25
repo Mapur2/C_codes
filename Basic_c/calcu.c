@@ -1,5 +1,7 @@
 /*can take as many inputs you want*/
 
+/*can take as many inputs you want*/
+
 #include<stdio.h>
 void main()
 {
@@ -18,6 +20,9 @@ void main()
 		}
 		else if(c==2)
 		{
+		    if(s==0.0)
+		    s=n;
+		    else
 			s=s-n;
 			printf("%f\n",s);
 		}
@@ -30,8 +35,9 @@ void main()
 		}
 		else
 		{
-			if(s==0.0)
-			s=1.0;
+		    if(s==0.0)
+		    s=n;
+		    else
 			s=s/n;
 			printf("%f\n",s);
 		}
