@@ -47,9 +47,9 @@ void merge(int a[], int low, int high, int mid)
     {
         c[k++]=a[j++];
     }
-    for(i=low;i<k;i++)
+    for(i=0;i<k;i++)
     {
-        a[i]=c[i];
+        a[i+low]=c[i];
     }
 }
 
